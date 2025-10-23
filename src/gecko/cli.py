@@ -37,9 +37,9 @@ def hunt():
 
 
 @main.command()
-def update():
-    """Update package information."""
-    click.echo("Update command - to be implemented")
+def molt():
+    """Molt to refresh package information."""
+    click.echo("Molt command - to be implemented")
 
 
 if __name__ == "__main__":
