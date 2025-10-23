@@ -12,9 +12,9 @@ def test_version():
     assert '0.1.0' in result.output
 
 
-def test_install_command():
-    """Test install command."""
+def test_get_command():
+    """Test get command."""
     runner = CliRunner()
-    result = runner.invoke(main, ['install'])
+    result = runner.invoke(main, ['get'])
     assert result.exit_code == 0
-    assert 'Install command' in result.output
+    assert 'Get command' in result.output

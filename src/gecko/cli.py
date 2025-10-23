@@ -13,9 +13,9 @@ def main():
 
 
 @main.command()
-def install():
-    """Install a package."""
-    click.echo("Install command - to be implemented")
+def get():
+    """Get and install a package."""
+    click.echo("Get command - to be implemented")
 
 
 @main.command()
