@@ -19,14 +19,20 @@ def get():
 
 
 @main.command()
-def remove():
-    """Remove a package."""
+def shed():
+    """Shed a package."""
     click.echo("Remove command - to be implemented")
 
 
 @main.command()
-def search():
-    """Search for packages."""
+def peek():
+    """Peek at installed packages."""
+    click.echo("List command - to be implemented")
+
+
+@main.command()
+def hunt():
+    """Hunt for packages."""
     click.echo("Search command - to be implemented")
 
 
